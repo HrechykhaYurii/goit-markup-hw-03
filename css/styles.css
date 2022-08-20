@@ -117,6 +117,11 @@ h1,h2,h3,h4,ul,p{
  padding-top: 32px;
  padding-bottom: 32px;
 }
+.contact-link{
+ padding-top: 32px;
+ padding-bottom: 32px;
+}
+
 .contact-menu {
     display: flex;
     margin-left: auto;
@@ -156,13 +161,15 @@ h1,h2,h3,h4,ul,p{
 .hero {
     background-color: var(--main-dark-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-title {
     width: 696px;
-    padding-top: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 
     font-weight: 900;
     font-size: 44px;
@@ -172,8 +179,6 @@ h1,h2,h3,h4,ul,p{
     letter-spacing: 0.06em;
 }
 .hero-button {
-    margin-top: 30px;
-    margin-bottom: 200px;
     padding: 10px 32px;
     border: 1px solid transparent;
     min-width: 216px;
@@ -243,7 +248,7 @@ h1,h2,h3,h4,ul,p{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .card-name {
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -252,7 +257,7 @@ h1,h2,h3,h4,ul,p{
     text-align: center;
 }
 .card-prof {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 
     font-size: 16px;
     line-height: 1.19;
@@ -261,21 +266,20 @@ h1,h2,h3,h4,ul,p{
 }
 
 /* Footer */
-.logo-wrap{
-    padding-top: 60px;
-    margin-bottom: 20px;
-}
-.address-item{
-    margin-bottom: 9px;
-}
-.address-footer{
-    padding-bottom: 60px;
-}
 .page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--main-dark-color);
 }
+
+.address-item:not(:last-child){
+    margin-bottom: 9px;
+}
+
 .logo-footer {
-     color: var(--logo-footer-color);
+    margin-bottom: 20px;
+    display: inline-block;
+    color: var(--logo-footer-color);
 }
 .footer-contact,
 .footer-link {
@@ -315,18 +319,18 @@ h1,h2,h3,h4,ul,p{
     flex-wrap:wrap;
     flex-basis: calc((100% - 60px) /3);
     gap: 30px;
+    margin-top: 34px;
 }
 
 .portfolio-item{
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-    border-left: 1px solid #EEEEEE;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
+
 .button-filter {
     padding: 6px 22px;
     border: 1px solid transparent;
     min-width: 130px;
-    margin-bottom: 50px;
 
     font-weight: 500;
     font-size: 16px;
@@ -346,8 +350,7 @@ h1,h2,h3,h4,ul,p{
     background-color: var(--hover-color);
 }
 .portfolio-title {
-    margin: 0 24px 4px 24px;
-    padding-top: 20px;
+   margin-bottom: 4px;
 
     font-weight: 700;
     font-size: 18px;
@@ -356,8 +359,6 @@ h1,h2,h3,h4,ul,p{
 }
 
 .portfolio-name {
-    margin: 0 24px 20px 24px;
-
     font-size: 16px;
     line-height: 1.88;
     color: var(--secondary-font-color);
