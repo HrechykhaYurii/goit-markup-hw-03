@@ -169,7 +169,7 @@ h1,h2,h3,h4,ul,p{
     width: 696px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
     font-weight: 900;
     font-size: 44px;
@@ -277,9 +277,12 @@ h1,h2,h3,h4,ul,p{
 }
 
 .logo-footer {
+    color: var(--logo-footer-color);
+}
+
+.link-logo{
     margin-bottom: 20px;
     display: inline-block;
-    color: var(--logo-footer-color);
 }
 .footer-contact,
 .footer-link {
@@ -312,6 +315,7 @@ h1,h2,h3,h4,ul,p{
     display: flex;
     justify-content: center;
     column-gap: 8px;
+    margin-bottom: 50px;
 }
 
 .portfolio-wrap{
@@ -319,12 +323,13 @@ h1,h2,h3,h4,ul,p{
     flex-wrap:wrap;
     flex-basis: calc((100% - 60px) /3);
     gap: 30px;
-    margin-top: 34px;
+
 }
 
 .portfolio-item{
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .button-filter {
